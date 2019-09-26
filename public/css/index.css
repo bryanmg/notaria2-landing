@@ -1,0 +1,169 @@
+/*
+styles guide
+0.reset
+1. layout
+2. generic items
+3. parts of the web
+4. list
+5. form
+6. animations
+-----------------
+colors:
+color1=>#2c3e50;
+color2=>#34495e;
+color3=>#3498db;
+color4=> #fff;
+*/
+
+/*0 reset*/
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* 1 layout*/ 
+ body{ text-align: center;font: 300 20px/1.7 'Roboto Condensed;' }
+      .header { display: flex; justify-content: center; align-items: center;}
+      .navbar {display: flex; justify-content: center; align-items: center;}
+      .tarifas {text-align:right;}
+      .list-services{display: flex;justify-content: center; align-items:center; margin-top: 20px ;}
+      .list-services figure {display: flex;justify-content: center; align-items:center; flex-flow: column ;}
+
+
+/* GENERIC ITEMS*/
+.header{height: 250px; background: url(../img/barra.png)
+ no-repeat center top; background-size: cover;}
+
+.navbar { height:63px;    background: grey; position: relative;z }
+
+.navbar a{ color: #fff; padding: 0 20px; text-decoration: none;
+ text-transform: uppercase; font: 20px 'Stint Ultra Condensed'; position: relative;list-style:none;}
+
+.title{margin-bottom: 20px;font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
+
+      
+.navbar a:hover{
+  background-color: #99a0a6;
+}
+.navbar li a:hover{
+  background-color: #99a0a6;  
+  text-decoration: none;
+}
+.navbar > ul li{
+  display:none;
+  text-decoration: none;
+}
+
+.navbar li:hover>a{
+  display: block;
+}
+.p{margin-bottom: 40px;}
+
+/*INICIO de menu vertical*/
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  width: 220px;
+}
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+  align-content:250px;
+}
+
+
+
+/*fin de menu vertical*/
+.imgRedonda {
+    width:120px;
+    height:120px;
+    border-radius:150px;
+}
+
+
+
+ /*FORMATO DE SUBMENU*/
+.submenu{
+  position: absolute;
+  background-color: grey;
+  display: none;
+}
+.submenu li a{
+  display: block;
+  padding: 15px;
+}
+.navbar li a:hover .submenu{
+  display: block;
+}
+/*FIN DE FORMATO DE SUBMENU*/
+
+ /*PARTS OF THE WEB*/
+ .content{padding: 40px 0;}
+
+ .who{background: #2c3e50; color:#fff;}
+
+ .who p{max-width: 1055px; margin: 0 auto;}
+
+ .services { background: #34495e;  color:#fff;}
+
+ .contain{max-width: 1055px; margin: 0 auto;}
+
+ .services p{max-width: 450px;}
+
+/*LIST*/
+.list-services figure{position: relative; width: 150px; height:  190px;}
+
+.list-services figure:after{content: ""; position: absolute;top:0;
+left: 0; border-radius: 50%; z-index: 0; width: 150px;height: 150px}
+
+.list-services img{position: relative; z-index: 1;}
+.list-services li{padding: 0 30px;}
+.list-services figcaption{position: relative;left: 0; top: 0;  bottom: 40px;}
