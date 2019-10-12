@@ -41,11 +41,16 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+  
+
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
+   padding-top: 10px;
+
+
 }
 body {
 	line-height: 1;
@@ -66,104 +71,206 @@ table {
 	border-spacing: 0;
 }
 
-/* 1 layout*/ 
- body{ text-align: center;font: 300 20px/1.7 'Roboto Condensed;' }
-      .header { display: flex; justify-content: center; align-items: center;}
-      .navbar {display: flex; justify-content: center; align-items: center;}
-      .tarifas {text-align:right;}
-      .list-services{display: flex;justify-content: center; align-items:center; margin-top: 20px ;}
-      .list-services figure {display: flex;justify-content: center; align-items:center; flex-flow: column ;}
-
-
-/* GENERIC ITEMS*/
-.header{height: 250px; background: url(../img/barra.png)
- no-repeat center top; background-size: cover;}
-
-.navbar { height:63px;    background: grey; position: relative;z }
-
-.navbar a{ color: #fff; padding: 0 20px; text-decoration: none;
- text-transform: uppercase; font: 20px 'Stint Ultra Condensed'; position: relative;list-style:none;}
-
-.title{margin-bottom: 20px;font: 60px 'Stint Ultra Condensed'; text-transform: uppercase;}
-
-      
-.navbar a:hover{
-  background-color: #99a0a6;
+/* 1 layout*/
+html {
+  scroll-behavior: smooth;
 }
-.navbar li a:hover{
-  background-color: #99a0a6;  
-  text-decoration: none;
+p{
+  text-align:left;
+  padding-top: 10px;
+  text-align: left;
 }
-.navbar > ul li{
-  display:none;
-  text-decoration: none;
+#header{
+position: fixed;
+top: 0;
+width:100%;
+}
+footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: green;
+   color: white;
+   text-align: center;
+}
+.logo-nav-container{
+  display: flex;
+  justify-content: space-between;
 }
 
-.navbar li:hover>a{
-  display: block;
+ #carousel-inner > .item > img,
+  #carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+  }
+
+#inicio,#QuienesSomos,#Formatos,#Servicios,#NuestrosClientes,#Ubicacion {
+  align-content: center;
+  height: 600px;
+  color:black;
+  background-color: white;
 }
-.p{margin-bottom: 40px;}
-
-/*INICIO de menu vertical*/
-.vertical-menu a {
-  background-color: #eee; /* Grey background color */
-  color: black; /* Black text color */
-  display: block; /* Make the links appear below each other */
-  padding: 12px; /* Add some padding */
-  text-decoration: none; /* Remove underline from links */
-  width: 220px;
-}
-.vertical-menu a.active {
-  background-color: #4CAF50;
-  color: white;
-  align-content:250px;
-}
-
-
-
-/*fin de menu vertical*/
-.imgRedonda {
-    width:120px;
-    height:120px;
-    border-radius:150px;
+#servicios{
+column-count: 4;
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    -o-column-count: 4;
+        /*Espacio entre columnas*/
+    column-gap: 2em;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    -o-column-gap: 2em;
+    /*Agrega una barra solida de color*/
+    column-rule: 2px solid #666;
+    -webkit-column-rule: 2px solid #666;
+    -moz-column-rule: 2px solid #666;
+    -o-column-rule: 2px solid #666
 }
 
+#uno{
+  float: left;
+  padding: 10;
+  width: 250px;
+  margin: 20px;
+  text-align: left;
+}
+#dos{
+  float: left;
+  padding: 10;
+  width: 250px;
+  margin: 20px;
+  text-align: left;
+}
 
+#tres{
+  float: right;
+  padding: 10px;
+  width: 250px;
+  margin: 20px;
+  text-align: left;
+}
+#cuatro{
+  float: right;
+  padding: 10px;
+  width: 250px;
+  margin: 20px;
+  text-align: left;
+}
+#Formatos{
+  padding: 20px;
+  float: center;
+  width: 100%;
+}
+/*
+#testamentos{
+  width: 100px;
+  padding-left:  50px;
+  padding-right: 50px;
+  margin-left:   30px;
+  margin-right:  30px;
+  text-align: center;
+}
 
- /*FORMATO DE SUBMENU*/
-.submenu{
-  position: absolute;
-  background-color: grey;
+/*MENU*/
+.html {
+  scroll-behavior: smooth;
+}
+.body {
+text-align: center;font: 300 20px/1.7 'Roboto Condensed;' 
+margin: 10;
+position: relative;
+}
+
+@media only screen and (max-width: 767px){
+.menu-icon{
   display: none;
+  cursor: pointer;
 }
-.submenu li a{
+}
+
+#navbar {
+  position: fixed;
+  color:white;
+  background-color:white; 
+  overflow: hidden;
+  height: auto;
+  text-align: right;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  left:50%;
+  display: none;
+
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+    right: 50%;
+
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding-top: 20px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  right: 100%;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #344F2B;
+  color:white;
+}
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: grey;
+  width: 100%;
+  z-index: 1;
+   padding: 14px 16px;
+}
+
+
+/*SCROLL*/
+.html {
+  scroll-behavior: smooth;
+}
+/*ETIQUETA*/
+h2{
+  text-align:center;
+  padding-top: 30px;
   display: block;
-  padding: 15px;
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
 }
-.navbar li a:hover .submenu{
-  display: block;
-}
-/*FIN DE FORMATO DE SUBMENU*/
 
  /*PARTS OF THE WEB*/
- .content{padding: 40px 0;}
-
- .who{background: #2c3e50; color:#fff;}
-
- .who p{max-width: 1055px; margin: 0 auto;}
-
- .services { background: #34495e;  color:#fff;}
-
- .contain{max-width: 1055px; margin: 0 auto;}
-
- .services p{max-width: 450px;}
+ .content{
+  padding: 1280px 725;
+  align-content: center;
+  }
+.h2{
+color :white;
+text-align: center;
+}
 
 /*LIST*/
-.list-services figure{position: relative; width: 150px; height:  190px;}
-
-.list-services figure:after{content: ""; position: absolute;top:0;
-left: 0; border-radius: 50%; z-index: 0; width: 150px;height: 150px}
-
-.list-services img{position: relative; z-index: 1;}
-.list-services li{padding: 0 30px;}
-.list-services figcaption{position: relative;left: 0; top: 0;  bottom: 40px;}
