@@ -63,20 +63,20 @@
     <div class="carousel-inner" role="listbox">
 
 		  <div class="item active">
-		   <img src="img/inicio1.png" alt="inicio.png" width="1400" height="400">	
+		   <img src="img/inicio1.png" alt="inicio.png" width="100%" height="100%">	
 		    <div class="carousel-caption">
 		      <h3>Notaria Publica No.2</h3>
 		    </div>
 		  </div>
 
       <div class="item">
-        <img src="img/inicio1.png" alt="inicio.png" width="1400" height="400">	
+        <img src="img/inicio1.png" alt="inicio.png" width="100%" height="100%">	
         <div class="carousel-caption">
           <h3>Notaria Publica No.2</h3>
         </div>
       </div>
         <div class="item">
-        <img src="img/inicio1.png" alt="inicio.png" width="1400" height="400">	
+        <img src="img/inicio1.png" alt="inicio.png" width="100%" height="100%">	
         <div class="carousel-caption">
           <h3>Notaria Publica No.2</h3>
         </div>
@@ -108,9 +108,7 @@
 <div class="main" id="Servicios" >
 	<div class="title-information-div">
 		<!--<img src="img/inicio.png" alt="inicio.png" width="1400" height="200"></br>-->
-		<div class="title-information-content">
-			<h2>NUESTROS SERVICIOS</h2>
-			<hr class="hr-content-white">
+		<div class="title-information-content-services">
 		</div>  
 	</div>
 	<div class="content-information-div">
@@ -237,12 +235,12 @@
 	<div class="we-are-content">
 	<div class="title-information-div">
 		<!--<img src="img/inicio.png" alt="inicio.png" width="1400" height="200"></br>-->
-		<div class="title-information-content">
-			<h2>Quienes somos</h2>
-			<hr class="hr-content-white">
+		<div class="title-information-content-we_us">
+			<!-- <h2>Quienes somos</h2>
+			<hr class="hr-content-white"> -->
 		</div>  
 	</div>
-		<div class="row" style="margin: 0px auto;">
+		<div class="row" style="margin: 0px auto; padding-top: 10pc;">
 			<div class="col-md-12">
 			<h2 class=>SOMOS</h2>
 			<hr class="hr-content-green">
@@ -272,9 +270,9 @@
 <div class="main" id="NuestrosClientes">
 	<div class="title-information-div">
 		<!--<img src="img/inicio.png" alt="inicio.png" width="1400" height="200"></br>-->
-		<div class="title-information-content">
-			<h2>NUESTROS CLIENTES</h2>
-			<hr class="hr-content-white">
+		<div class="title-information-content-clients">
+			<!-- <h2>NUESTROS CLIENTES</h2>
+			<hr class="hr-content-white"> -->
 		</div>  
 	</div>
 	<div class="our-clients-content">
@@ -318,9 +316,9 @@
 <div class="main" id="Formatos" style=""></br>
 	<div class="title-information-div" style="">
 		<!--<img src="img/inicio.png" alt="inicio.png" width="1400" height="200"></br>-->
-		<div class="title-information-content">
-			<h2>FORMATOS</h2>
-			<hr class="hr-content-white">
+		<div class="title-information-content-formats">
+			<!--<h2>FORMATOS</h2>
+			<hr class="hr-content-white"> -->
 		</div>  
 	</div>
 	<div class="formats-content-div" style="margin-bottom: 10pc;">
@@ -359,14 +357,16 @@
 </div>
 <div class="main" id="Ubicacion">
 	<div class="title-information-div" style="">
-		<!--<img src="img/inicio.png" alt="inicio.png" width="1400" height="200"></br>-->
-		<div class="title-information-content">
-			<h2>Ubicación y Contacto</h2>
-			<hr class="hr-content-white">
-		</div>  
+		<div>
+			<!--<img src="img/inicio.png" alt="inicio.png" width="1400" height="200"></br>-->
+			<div class="title-information-content-contact">
+				<h2>Ubicación y Contacto</h2>
+				<hr class="hr-content-white">
+			</div>  
+		</div>
 	</div>
 	<div class="ubication-content-div">
-		<div class="row">
+		<div class="row" style="padding-top: 10pc;">
 			<div class="col-md-6">
 				<iframe  class="view-map-frame" width="100%" height="410" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-99.01791393756866%2C21.9844853915736%2C-99.01609003543855%2C21.985932918804973&amp;layer=mapnik" style="border: 1px solid black" align="center"  height=""></iframe><br/><small><a href="https://www.openstreetmap.org/#map=19/21.98521/-99.01700">Ver mapa más grande</a></small>
 			</div>

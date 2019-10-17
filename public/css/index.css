@@ -561,12 +561,68 @@ text-align: center;
   background-size: 100%;
   background-image: url("/img/background-content.jpg");
   background-repeat: no-repeat;
-  border-bottom: 10px solid #33cc66;
-  
+  /*border-bottom: 10px solid #33cc66;*/
+}
+
+.title-information-content-contact{
+  padding: 2%;
+  height: 150%;
+  margin: 0px auto;
+  background-position: bottom;
+  background-size: 100%;
+  background-image: url(/img/background-content.jpg);
+  background-repeat: no-repeat;
+  border-bottom: 17px solid #cc9933;
+}
+
+.title-information-content-services{
+  padding: 2%;
+  height: 150%;
+  margin: 0px auto;
+  background-position: bottom;
+  background-size: 100%;
+  background-image: url("/img/assets/services.png");
+  background-repeat: no-repeat;
+ /* border-bottom: 10px solid #33cc66;*/
+}
+
+
+.title-information-content-we_us{
+  padding: 2%;
+  height: 150%;
+  margin: 0px auto;
+  background-position: bottom;
+  background-size: 100%;
+  background-image: url("/img/assets/we_us.png");
+  background-repeat: no-repeat;
+ /* border-bottom: 10px solid #33cc66;*/
+}
+
+.title-information-content-clients{
+  padding: 2%;
+  height: 150%;
+  margin: 0px auto;
+  background-position: bottom;
+  background-size: 100%;
+  background-image: url("/img/assets/clients.png");
+  background-repeat: no-repeat;
+ /* border-bottom: 10px solid #33cc66;*/
+}
+
+
+.title-information-content-formats{
+  padding: 2%;
+  height: 150%;
+  margin: 0px auto;
+  background-position: bottom;
+  background-size: 100%;
+  background-image: url("/img/assets/format.png");
+  background-repeat: no-repeat;
+ /* border-bottom: 10px solid #33cc66;*/
 }
 
 .content-information-div{
-  padding-top: 1pc;
+  padding-top: 10pc;
   margin-bottom: 100px;
 }
 
@@ -604,7 +660,7 @@ text-align: center;
 }
 
 .our-clients-content{
-  padding-top: 50px;
+  padding-top: 10pc;
 }
 
 .our-clients-content > div{
