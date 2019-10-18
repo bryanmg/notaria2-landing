@@ -561,12 +561,73 @@ text-align: center;
   background-size: 100%;
   background-image: url("/img/background-content.jpg");
   background-repeat: no-repeat;
-  border-bottom: 10px solid #33cc66;
-  
+  /*border-bottom: 10px solid #33cc66;*/
+}
+
+.title-information-content-contact{
+  padding: 2%;
+  height: 150%;
+  margin: 0px auto;
+  background-position: bottom;
+  background-size: 100%;
+  background-image: url(/img/background-content.jpg);
+  background-repeat: no-repeat;
+  border-bottom: 17px solid #cc9933;
+}
+
+.title-information-content-services{
+  padding: 2%;
+  height: 150%;
+  margin: 0px auto;
+  background-position: bottom;
+  background-size: 100%;
+  background-image: url("/img/assets/services.png");
+  background-repeat: no-repeat;
+ /* border-bottom: 10px solid #33cc66;*/
+}
+
+
+.title-information-content-we_us{
+  padding: 2%;
+  height: 150%;
+  margin: 0px auto;
+  background-position: bottom;
+  background-size: 100%;
+  background-image: url("/img/assets/we_us.png");
+  background-repeat: no-repeat;
+ /* border-bottom: 10px solid #33cc66;*/
+}
+
+.title-information-content-clients{
+  padding: 2%;
+  height: 150%;
+  margin: 0px auto;
+  background-position: bottom;
+  background-size: 100%;
+  background-image: url("/img/assets/clients.png");
+  background-repeat: no-repeat;
+ /* border-bottom: 10px solid #33cc66;*/
+}
+
+
+.title-information-content-formats{
+  padding: 2%;
+  height: 150%;
+  margin: 0px auto;
+  background-position: bottom;
+  background-size: 100%;
+  background-image: url("/img/assets/format.png");
+  background-repeat: no-repeat;
+ /* border-bottom: 10px solid #33cc66;*/
 }
 
 .content-information-div{
-  padding-top: 1pc;
+  padding-top: 10pc;
+  margin-bottom: 100px;
+}
+
+.content-information-div-services{
+  padding-top: 10pc;
   margin-bottom: 100px;
 }
 
@@ -584,8 +645,8 @@ text-align: center;
 
 .hr-content-white{
   /*border-top:1px solid #063019 !important;*/
-  height: 5px;
-  width: 10%;
+  height: 3px;
+  width: 7%;
   background-color: white;
 }
 
@@ -604,7 +665,9 @@ text-align: center;
 }
 
 .our-clients-content{
-  padding-top: 50px;
+  padding-top: 10pc;
+  max-width: 1200px;
+  margin: 0px auto;
 }
 
 .our-clients-content > div{
@@ -626,6 +689,7 @@ text-align: center;
 
 .formats-content-div > div{
   margin: 0px auto;
+  max-width: 800px;
 }
 
 .row{
@@ -643,7 +707,21 @@ text-align: center;
   float: left;
   width: 50%;
   height: 100%;
-  background-color: #063019c9;
+  background-color: #063019f2;
+  text-align: center;
+    padding: 10%;
+    margin: 0px auto;
+}
+
+
+#title-form-services{
+  margin-bottom: 55px;
+}
+
+.body-format{
+  max-width: 800px;
+  padding-top: 65px;
+  margin: 0px auto;
 }
 
 .left-footer{
