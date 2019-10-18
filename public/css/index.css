@@ -245,11 +245,13 @@ color4=> #fff;
 @medias
 */
 @font-face {
-  font-family: 'SourceSans-regular';
-  src: url('/css/source-sans-pro/SourceSansPro-Regular.otf'); /* IE9 Compat Modes */
   font-family: 'SourceSans-Semibold';
   src: url('/css/source-sans-pro/SourceSansPro-Semibold.otf');
+  font-family: 'SourceSans-regular';
+  src: url('/css/source-sans-pro/SourceSansPro-Regular.otf'); /* IE9 Compat Modes */
+  
 }
+
 .emails-content-class{
   margin-left: 0% !important;
 }
