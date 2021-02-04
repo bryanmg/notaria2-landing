@@ -66,20 +66,20 @@
 		  <div class="item active">
 		   <img src="img/inicio1.png" alt="inicio.png" width="100%" height="100%">	
 		    <div class="carousel-caption">
-		      <h3>Notaria Publica No.2</h3>
+		      <h3>Notaria Publica No.2 first card</h3>
 		    </div>
 		  </div>
 
       <div class="item">
         <img src="img/inicio1.png" alt="inicio.png" width="100%" height="100%">	
         <div class="carousel-caption">
-          <h3>Notaria Publica No.2</h3>
+          <h3>Notaria Publica No.2 second card</h3>
         </div>
       </div>
         <div class="item">
         <img src="img/inicio1.png" alt="inicio.png" width="100%" height="100%">	
         <div class="carousel-caption">
-          <h3>Notaria Publica No.2</h3>
+          <h3>Notaria Publica No.2 third card</h3>
         </div>
       </div>
    <!-- controles izquierda y derecha -->
@@ -97,8 +97,18 @@
 		<div class="col-md-12">
 			<div class="content-index">
 				<article>
-					<h3 style="text-align: justify;font-family: SourceSans-regular;">Un notario es un funcionario público con estudis end derecho cuya intervención otorga carácter público a los documentos privados y los autoriza a tal fin con su firma.Es un testigo de fe o fedatario público que garantiza la legitimidad de los documentos en los que interviene y proporciona a los ciudadanos la seguridad jurídica en el ámbito extrajudicial. Sus actos se hallan investidos de presunción de verdad, está habilitado por las leyes y reglamentos para conferir fe pública de los contratos y actos extrajudiciales  originados en el marco del derecho privado de la naturaleza civil y mercantil, así como informar y asesorar a los ciudadano en materia de actas públicas sobre hechos, cuestiones testamentarias y derecho hereditario, entre otros.
-					Ejerce asismismo una labor en sus actos, lo cual lo distingue de los abogados, quienes deben tomar parte y estar al lado de sus clientes o representados.
+					<h3 style="text-align: justify;font-family: SourceSans-regular;">
+					Un notario es un funcionario público con estudios en derecho cuya intervención otorga 
+                    carácter público a los documentos privados y los autoriza a tal fin con su firma.
+                    Es un testigo de fe o fedatario público que garantiza la legitimidad de los documentos 
+                    en los que interviene y proporciona a los ciudadanos la seguridad jurídica en el ámbito 
+                    extrajudicial. Sus actos se hallan investidos de presunción de verdad, está habilitado por 
+                    las leyes y reglamentos para conferir fe pública de los contratos y actos extrajudiciales 
+                    originados en el marco del derecho privado de la naturaleza civil y mercantil, 
+                    así como informar y asesorar a los ciudadano en materia de actas públicas sobre hechos, 
+                    cuestiones testamentarias y derecho hereditario, entre otros. 
+                    Ejerce asismismo una labor en sus actos, lo cual lo distingue de los abogados, 
+                    quienes deben tomar parte y estar al lado de sus clientes o representados.
 					</h3>
 
 				</article>
