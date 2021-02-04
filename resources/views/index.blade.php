@@ -63,25 +63,24 @@
      <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
 
-		  <div class="item active">
-		   <img src="img/inicio1.png" alt="inicio.png" width="100%" height="100%">	
-		    <div class="carousel-caption">
-		      <h3>Notaria Publica No.2 first card</h3>
+		<div class="item active">
+		  <img src="img/inicio1.png" alt="inicio.png" width="100%" max-height="80%">	
+	    	<div class="carousel-caption">
+			 <h3>Notaria Publica No.2 first card</h3>
 		    </div>
-		  </div>
-
-      <div class="item">
-        <img src="img/inicio1.png" alt="inicio.png" width="100%" height="100%">	
-        <div class="carousel-caption">
-          <h3>Notaria Publica No.2 second card</h3>
-        </div>
-      </div>
+		</div>
+		<div class="item">
+			<img src="img/notario2.jpg" alt="inicio.png" width="100%" max-height="80%">	
+			<div class="carousel-caption">
+			<h3>Notaria Publica No.2 second card</h3>
+			</div>
+		</div>
         <div class="item">
-        <img src="img/inicio1.png" alt="inicio.png" width="100%" height="100%">	
-        <div class="carousel-caption">
-          <h3>Notaria Publica No.2 third card</h3>
-        </div>
-      </div>
+			<img src="img/notario1.jpg" alt="inicio.png" width="100%" max-height="80%">	
+			<div class="carousel-caption">
+			<h3>Notaria Publica No.2 third card</h3>
+			</div>
+      	</div>
    <!-- controles izquierda y derecha -->
     <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
