@@ -101,22 +101,53 @@
 	<div class="row" style="    margin: 0px auto;">
 		<div class="col-md-12">
 			<div class="content-index">
-				<article>
-					<h3 style="text-align: justify;font-family: SourceSans-regular;">
-					Un notario es un funcionario público con estudios en derecho cuya intervención otorga 
-                    carácter público a los documentos privados y los autoriza a tal fin con su firma.
-                    Es un testigo de fe o fedatario público que garantiza la legitimidad de los documentos 
-                    en los que interviene y proporciona a los ciudadanos la seguridad jurídica en el ámbito 
-                    extrajudicial. Sus actos se hallan investidos de presunción de verdad, está habilitado por 
-                    las leyes y reglamentos para conferir fe pública de los contratos y actos extrajudiciales 
-                    originados en el marco del derecho privado de la naturaleza civil y mercantil, 
-                    así como informar y asesorar a los ciudadano en materia de actas públicas sobre hechos, 
-                    cuestiones testamentarias y derecho hereditario, entre otros. 
-                    Ejerce asismismo una labor en sus actos, lo cual lo distingue de los abogados, 
-                    quienes deben tomar parte y estar al lado de sus clientes o representados.
-					</h3>
+				<div class="tablecontainer">
+					<div class="column">
+						<div class="row">
+							<div class="col-md-6">
+								<h3 style="text-align: justify;font-family: SourceSans-regular;">	
+								Un notario es un funcionario público con estudios en derecho cuya intervención otorga 
+								carácter público a los documentos privados y los autoriza a tal fin con su firma.
+								Es un testigo de fe o fedatario público que garantiza la legitimidad de los documentos 
+								en los que interviene y proporciona a los ciudadanos la seguridad jurídica en el ámbito 
+								extrajudicial. 
+								</h3>
+							</div>
+							<div style="text-align:center" class="col-md-6">
+								<img src="/img/assets/stamp.png" alt="">
+							</div>
+						</div>
+						<div class="row">
+							<div style="text-align:center" class="col-md-6">
+								<img src="/img/assets/justice.png" alt="">
+							</div>
+							<div class="col-md-6">
+								<h3 style="text-align: justify;font-family: SourceSans-regular;">
+								Sus actos se hallan investidos de presunción de verdad, está habilitado por 
+								las leyes y reglamentos para conferir fe pública de los contratos y actos extrajudiciales 
+								originados en el marco del derecho privado de la naturaleza civil y mercantil, 
+								así como informar y asesorar a los ciudadano en materia de actas públicas sobre hechos, 
+								cuestiones testamentarias y derecho hereditario, entre otros. 
+								</h3>
 
-				</article>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<h3 style="text-align: justify;font-family: SourceSans-regular;">
+								Ejerce asismismo una labor en sus actos, lo cual lo distingue de los abogados, 
+								quienes deben tomar parte y estar al lado de sus clientes o representados.
+								</h3>
+							</div>
+							<div style="text-align:center" class="col-md-6">
+								<img src="/img/assets/stamp.png" alt="">
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- <article> -->
+
+				<!-- </article> -->
 			</div>
 		</div>
 	</div>
