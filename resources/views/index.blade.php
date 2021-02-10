@@ -64,21 +64,27 @@
     <div class="carousel-inner" role="listbox">
 
 		<div class="item active">
-		  <img src="img/inicio1.png" alt="inicio.png" width="100%" max-height="80%">	
+		  	<div style="height: 300px; background-position: center; background-size: 100%; background-image: url('img/inicio1.png'); background-repeat: no-repeat;">
+			  <!-- <img src="img/inicio1.png" alt="inicio.png" width="100%">	 -->
+			</div>
 	    	<div class="carousel-caption">
-			 <h3>Notaria Publica No.2 first card</h3>
+			 <h3>Notaria Publica No.2</h3>
 		    </div>
 		</div>
 		<div class="item">
-			<img src="img/notario2.jpg" alt="inicio.png" width="100%" max-height="80%">	
+			<div style="height: 300px; background-position: bottom; background-size: 100%; background-image: url('/img/background-content.jpg'); background-repeat: no-repeat;">
+				<!-- <img src="img/notario2.jpg" alt="inicio.png" width="100%"> -->
+			</div>
 			<div class="carousel-caption">
-			<h3>Notaria Publica No.2 second card</h3>
+			<h3>Notaria Publica No.2</h3>
 			</div>
 		</div>
         <div class="item">
-			<img src="img/notario1.jpg" alt="inicio.png" width="100%" max-height="80%">	
+			<div style="height: 300px; background-position: center; background-size: 100%; background-image: url('img/notario2.jpg'); background-repeat: no-repeat;">
+				<!-- <img src="img/notario1.jpg" alt="inicio.png" width="100%"> -->
+			</div>
 			<div class="carousel-caption">
-			<h3>Notaria Publica No.2 third card</h3>
+			<h3>Notaria Publica No.2</h3>
 			</div>
       	</div>
    <!-- controles izquierda y derecha -->
