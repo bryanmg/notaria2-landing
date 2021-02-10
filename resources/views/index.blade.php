@@ -103,7 +103,7 @@
 			<div class="content-index">
 				<div class="tablecontainer">
 					<div class="column">
-						<div class="row">
+						<div class="row tablerow">
 							<div class="col-md-6">
 								<h3 style="text-align: justify;font-family: SourceSans-regular;">	
 								Un notario es un funcionario público con estudios en derecho cuya intervención otorga 
@@ -117,7 +117,7 @@
 								<img src="/img/assets/stamp.png" alt="">
 							</div>
 						</div>
-						<div class="row">
+						<div class="row tablerow">
 							<div style="text-align:center" class="col-md-6">
 								<img src="/img/assets/justice.png" alt="">
 							</div>
@@ -132,7 +132,7 @@
 
 							</div>
 						</div>
-						<div class="row">
+						<div class="row tablerow">
 							<div class="col-md-6">
 								<h3 style="text-align: justify;font-family: SourceSans-regular;">
 								Ejerce asismismo una labor en sus actos, lo cual lo distingue de los abogados, 

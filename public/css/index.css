@@ -348,8 +348,12 @@ footer {
     width: 70%;
     margin: auto;
   }
+
   .tablecontainer{
     padding: 100px 70px;
+  }
+  .tablerow{
+      margin:50px 0px;
   }
 
 #inicio,#QuienesSomos,#Formatos,#Servicios,#NuestrosClientes,#Ubicacion {
