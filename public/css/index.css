@@ -329,8 +329,8 @@ footer {
   background-size: 100%;
   background-image: url("/img/background-content.jpg");
   background-repeat: no-repeat;
-  border-top: 10px solid #33cc66;
-   /*position: fixed;
+  /*border-top: 10px solid #33cc66;
+   position: fixed;
    left: 0;
    bottom: 0;
    width: 100%;
@@ -350,7 +350,7 @@ footer {
   }
 
   .tablecontainer{
-    padding: 100px 70px;
+    padding: 50px 35px;
   }
   .tablerow{
       margin:50px 0px;
@@ -728,7 +728,6 @@ text-align: center;
     margin: 0px auto;
 }
 
-
 #title-form-services{
   margin-bottom: 55px;
 }
@@ -744,7 +743,7 @@ text-align: center;
   width: 50%;
   height: 100%;
   color:white;
-  background-color: #06301994;
+  background-color: #063019d4;
 }
 
 .not-marging-left{
