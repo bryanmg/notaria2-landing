@@ -559,6 +559,11 @@ text-align: center;
   color: white !important;
 }
 
+.navbar-selected{
+  /*otro codigo*/
+  background-color: #063019 !important;
+}
+
 .nav>li>a{
   position: initial !important;
 }
@@ -591,14 +596,14 @@ text-align: center;
 }
 
 .title-information-content-services{
-  padding: 2%;
+  /* padding: 2%; */
   height: 150%;
   margin: 0px auto;
   background-position: bottom;
   background-size: 100%;
   background-image: url("/img/assets/services.png");
   background-repeat: no-repeat;
- /* border-bottom: 10px solid #33cc66;*/
+  /* border-bottom: 10px solid #33cc66; */
 }
 
 

@@ -16,6 +16,12 @@
 Route::get('/', function () {
     return view('index');
 });
+Route::get('/servicios', function () {
+    return view('services');
+});
+Route::get('/quienessomos', function () {
+    return view('about');
+});
 Route::get('/panel', function () {
     return view('panel');
 });

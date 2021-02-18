@@ -41,14 +41,14 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse navbar-top" id="bs-example-navbar-collapse-1">
 	<img src="img/assets/green_log.png" alt="green_log.png" style="width: 130px;height: 50px;margin: 5px;">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a class="navbar-nav-a" href="#">INICIO</a></li>
-		<li><a href="#Servicios">SERVICIOS</a></li>
-		<li><a href="#QuienesSomos">QUIENÉS SOMOS</a></li>
-		<li><a href="#NuestrosClientes">NUESTROS CLIENTES</a></li>
-		<li><a href="#Formatos">FORMATOS</a></li>
-		<li><a href="#Ubicacion">UBICACIÓN Y CONTACTO</a></li>
-      </ul>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a class="navbar-selected" style="color:white !important" href="/">INICIO</a></li>
+			<li><a href="/servicios">SERVICIOS</a></li>
+			<li><a href="/quienessomos">QUIENÉS SOMOS</a></li>
+			<li><a href="/nuestrosClientes">NUESTROS CLIENTES</a></li>
+			<li><a href="/formatos">FORMATOS</a></li>
+			<li><a href="/ubicacion">UBICACIÓN Y CONTACTO</a></li>
+		</ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -125,7 +125,7 @@
 			<div class="col-md-7 left-footer">
 				<address style="margin-top: 15%;">
 					<div>Calle Ignacion Zaragoza 162, Centro, 28000, Colima, Col.</div>
-					<div style="text-align: left;"><span style="color:#32c562;">Teléfonos:</span> (312)31 3 23 99 / 314 62 40</div>
+					<div style="text-align: left;"><span style="color:#32c562;font-style:italic">Teléfonos:</span> (312)31 3 23 99 / 314 62 40</div>
 					<br>
 					<p style="text-align: left;"><a href="#" style="color:white">> Leer aviso de privacidad</a></p>
 				</address>
