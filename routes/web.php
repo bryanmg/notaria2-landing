@@ -22,6 +22,17 @@ Route::get('/servicios', function () {
 Route::get('/quienessomos', function () {
     return view('about');
 });
+Route::get('/nuestrosClientes', function () {
+    return view('customers');
+});
+Route::get('/formatos', function () {
+    return view('formats');
+});
+Route::get('/ubicacion', function () {
+    return view('contact');
+});
+
+
 Route::get('/panel', function () {
     return view('panel');
 });

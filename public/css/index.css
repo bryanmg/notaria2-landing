@@ -585,14 +585,14 @@ text-align: center;
 }
 
 .title-information-content-contact{
-  padding: 2%;
+  /* padding: 2%; */
   height: 150%;
   margin: 0px auto;
-  background-position: bottom;
+  background-position: center;
   background-size: 100%;
-  background-image: url(/img/background-content.jpg);
+  background-image: url(/img/notario2.jpg);
   background-repeat: no-repeat;
-  border-bottom: 17px solid #cc9933;
+  /* border-bottom: 17px solid #cc9933; */
 }
 
 .title-information-content-services{
@@ -709,7 +709,7 @@ text-align: center;
 
 .formats-content-div > div{
   margin: 0px auto;
-  max-width: 800px;
+  /* max-width: 800px; */
 }
 
 .row{
@@ -770,7 +770,8 @@ text-align: center;
 }
 
 .emails-content-class{
-  margin-left: 30%;
-  width: 70%;
+  height: 300px;
+  flex-direction: row;
+  width: 100%;
 }
 

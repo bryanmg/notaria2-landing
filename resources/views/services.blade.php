@@ -43,7 +43,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li><a class="navbar-nav-a" href="/">INICIO</a></li>
                     <li><a class="navbar-selected" style="color:white !important" href="/servicios">SERVICIOS</a></li>
-                    <li><a href="/guienessomos">QUIENÉS SOMOS</a></li>
+                    <li><a href="/quienessomos">QUIENÉS SOMOS</a></li>
                     <li><a href="/nuestrosClientes">NUESTROS CLIENTES</a></li>
                     <li><a href="/formatos">FORMATOS</a></li>
                     <li><a href="/ubicacion">UBICACIÓN Y CONTACTO</a></li>
@@ -69,7 +69,7 @@
                 <div class="row" id="services-content">
                     <div class="col-md-3 animated " animated="false">
                         <figure>
-                            <figcaption>DERECHO  MOBILIARIO</figcaption>
+                            <figcaption>DERECHO  MERCANTIL</figcaption>
                             <hr class="hr-content-green-soft">
                             <img src="img/1.jpg" alt="inicio.png" width="100%" class='imgRedonda'>
                             <ul class="list-custom-content">
@@ -93,7 +93,7 @@
                     </div>
                     <div class="col-md-3 animated " animated="false">
                         <figure>
-                            <figcaption>DERECHO  MOBILIARIO</figcaption>
+                            <figcaption>DERECHO  CIVIL</figcaption>
                             <hr class="hr-content-green-soft">
                             <img src="img/1.jpg" alt="inicio.png" width="100%" class='imgRedonda'>
                             <ul class="list-custom-content">
@@ -163,6 +163,9 @@
                                 <li>
                                     <a href="#form-services" class="item-services" show="0"  title="Permuta"  data-toggle="collapse">Permuta</a>
                                 </li>
+                                <li>
+                                    <a href="#form-services" class="item-services" show="0"  title="Transmision de propiedad en ejecucion de fideicomiso"  data-toggle="collapse">Transmisión de Propiedad en Ejecución de Fideicomiso</a>
+                                </li>
                                 
 
                             </ul>	
@@ -228,7 +231,7 @@
 
                     <div class="col-md-3 animated " animated="false">
                         <figure>
-                            <figcaption>DERECHO  MOBILIARIO</figcaption>
+                            <figcaption>OTROS SERVICIOS</figcaption>
                             <hr class="hr-content-green-soft">
                             <img src="img/1.jpg" alt="inicio.png" width="100%" class='imgRedonda'>
                             <ul class="list-custom-content">
