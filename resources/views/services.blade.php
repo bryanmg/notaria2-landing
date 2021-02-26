@@ -69,7 +69,7 @@
                 <div class="row" id="services-content">
                     <div class="col-md-3 animated " animated="false">
                         <figure>
-                            <figcaption>DERECHO  MERCANTIL</figcaption>
+                            <figcaption>DERECHO MERCANTIL</figcaption>
                             <hr class="hr-content-green-soft">
                             <img src="img/1.jpg" alt="inicio.png" width="100%" class='imgRedonda'>
                             <ul class="list-custom-content">
@@ -86,7 +86,10 @@
                                     <a href="#form-services" class="item-services" show="0"  title="Liquidación"  data-toggle="collapse">Liquidación</a>
                                 </li>
                                 <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Protocolización de Actas de Asamblea y Consejo"  data-toggle="collapse">Protocolización de Actas de Asamblea y Consejos</a>
+                                    <a href="#form-services" class="item-services" show="0"  title="Protocolización de Actas de Asamblea"  data-toggle="collapse">Protocolización de Actas de Asamblea</a>
+                                </li>
+                                <li>
+                                    <a href="#form-services" class="item-services" show="0"  title="Protocolización de acts de sessiones de consejo"  data-toggle="collapse">Protocolización de acts de sessiones de consejo.</a>
                                 </li>
                             </ul>	
                         </figure>
@@ -101,7 +104,7 @@
                                     <a href="#form-services" class="item-services" show="0"  title="Cesiones de Derechos"  data-toggle="collapse">Cesiones de Derechos</a>
                                 </li>
                                 <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Poderes"  data-toggle="collapse">Poderes</a>
+                                    <a href="#form-services" class="item-services" show="0"  title="Otorgamiento de poderes"  data-toggle="collapse">Otorgamiento de poderes</a>
                                 </li>
                                 <li>
                                     <a href="#form-services" class="item-services" show="0"  title="Revocacion de poderes"  data-toggle="collapse">Revocacion de poderes</a>
@@ -115,6 +118,18 @@
                                 <li>
                                     <a href="#form-services" class="item-services" show="0"  title="Sucesiones Intestamentarias"  data-toggle="collapse">Sucesiones Intestamentarias</a>
                                 </li>
+                                <li>
+                                    <a href="#form-services" class="item-services" show="0"  title="Convenios sobre capitulaciones matrimoniales"  data-toggle="collapse">Convenios sobre capitulaciones matrimoniales</a>
+                                </li>
+                                <li>
+                                    <a href="#form-services" class="item-services" show="0"  title="Contratos de arrendamiento"  data-toggle="collapse">Contratos de arrendamiento</a>
+                                </li>
+                                <li>
+                                    <a href="#form-services" class="item-services" show="0"  title="Declaracion jurada"  data-toggle="collapse">Declaración jurada</a>
+                                </li>
+                                <li>
+                                    <a href="#form-services" class="item-services" show="0"  title="Informacion testimonial"  data-toggle="collapse">Información testimonial</a>
+                                </li>
                             </ul>	
                         </figure>
                     </div>
@@ -125,49 +140,45 @@
                             <img src="img/1.jpg" alt="inicio.png" width="100%" class='imgRedonda'>
                             <ul class="list-custom-content">
                                 <li>
+                                    <a href="#form-services" class="item-services" show="0"  title="Compraventa"  data-toggle="collapse">Compraventa</a>
+                                </li>
+                                <li>
+                                    <a href="#form-services" class="item-services" show="0"  title="Donación"  data-toggle="collapse">Donación</a>
+                                </li>
+                                <li>
+                                    <a href="#form-services" class="item-services" show="0"  title="Permuta"  data-toggle="collapse">Permuta</a>
+                                </li>
+                                <li>
+                                    <a href="#form-services" class="item-services" show="0"  title="Dacion en Pago"  data-toggle="collapse">Dación en Pago</a>
+                                </li>
+                                <li>
+                                    <a href="#form-services" class="item-services" show="0"  title="Transmision de propiedad en ejecucion de fideicomiso"  data-toggle="collapse">Transmisión de Propiedad en Ejecución de Fideicomiso</a>
+                                </li>
+                                <li>
                                     <a href="#form-services" class="item-services" show="0"  title="Adjudicaciones por herencia"  data-toggle="collapse">Adjudicaciones por herencia</a>
                                 </li>
                                 <li>
                                     <a href="#form-services" class="item-services" show="0"  title="Adjudicaciones por Remate Judicial"  data-toggle="collapse">Adjudicaciones por Remate Judicial</a>
                                 </li>
                                 <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Aportación a sociedades"  data-toggle="collapse">Aportación a sociedades</a>
+                                    <a href="#form-services" class="item-services" show="0"  title="Otorgamiento de hipotecas "  data-toggle="collapse">Otorgamiento de hipotécas</a>
                                 </li>
                                 <li>
                                     <a href="#form-services" class="item-services" show="0"  title="Cancelación de Hipotecas"  data-toggle="collapse">Cancelación de Hipotecas</a>
                                 </li>
                                 <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Compraventa"  data-toggle="collapse">Compraventa</a>
-                                </li>
-                                <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Condominios"  data-toggle="collapse">Condominios</a>
-                                </li>
-                                <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Daciones en Pago"  data-toggle="collapse">Daciones en Pago</a>
-                                </li>
-                                <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Donación"  data-toggle="collapse">Donación</a>
-                                </li>
-                                <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Fideicomisos"  data-toggle="collapse">Fideicomisos</a>
-                                </li>
-                                <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Formalización de Transmisiones de Propiedad"  data-toggle="collapse">Formalización de Transmisiones de Propiedad</a>
+                                    <a href="#form-services" class="item-services" show="0"  title="Aportación de inmuebles a sociedades"  data-toggle="collapse">Aportación de inmuebles a sociedades</a>
                                 </li>
                                 <li>
                                     <a href="#form-services" class="item-services" show="0"  title="Fusión y Subdivisión de predios"  data-toggle="collapse">Fusión y Subdivisión de predios</a>
                                 </li>
                                 <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Hipotecas"  data-toggle="collapse">Hipotecas</a>
+                                    <a href="#form-services" class="item-services" show="0"  title="Constitución de condominios"  data-toggle="collapse">Constitución de condominios</a>
                                 </li>
                                 <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Permuta"  data-toggle="collapse">Permuta</a>
+                                    <a href="#form-services" class="item-services" show="0"  title="Fideicomisos"  data-toggle="collapse">Fideicomisos</a>
                                 </li>
                                 <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Transmision de propiedad en ejecucion de fideicomiso"  data-toggle="collapse">Transmisión de Propiedad en Ejecución de Fideicomiso</a>
-                                </li>
-                                
-
                             </ul>	
                         </figure>
                     </div>
@@ -251,16 +262,10 @@
                                     <a href="#form-services" class="item-services" show="0"  title="Ratificaciones"  data-toggle="collapse">Ratificaciones</a>
                                 </li>
                                 <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Declaraciones"  data-toggle="collapse">Declaraciones</a>
-                                </li>
-                                <li>
                                     <a href="#form-services" class="item-services" show="0"  title="Apostillamientos"  data-toggle="collapse">Apostillamientos</a>
                                 </li>
                                 <li>
                                     <a href="#form-services" class="item-services" show="0"  title="Legalizaciones"  data-toggle="collapse">Legalizaciones</a>
-                                </li>
-                                <li>
-                                    <a href="#form-services" class="item-services" show="0"  title="Servicios de Mediación"  data-toggle="collapse">Servicios de Mediación</a>
                                 </li>
                                 <li>
                                     <a href="#form-services" class="item-services" show="0"  title="Negociación de Solución de Conflictos"  data-toggle="collapse">Negociación de Solución de Conflictos</a>
