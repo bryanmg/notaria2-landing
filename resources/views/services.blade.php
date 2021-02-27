@@ -178,7 +178,6 @@
                                 <li>
                                     <a href="#form-services" class="item-services" show="0"  title="Fideicomisos"  data-toggle="collapse">Fideicomisos</a>
                                 </li>
-                                <li>
                             </ul>	
                         </figure>
                     </div>
