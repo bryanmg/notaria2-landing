@@ -39,7 +39,9 @@
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-top" id="bs-example-navbar-collapse-1">
-                <img src="img/assets/green_log.png" alt="green_log.png" style="width: 130px;height: 50px;margin: 5px;">
+                <!-- <a style="display:block !important" href="/"> -->
+                    <img src="img/assets/green_log.png" alt="green_log.png" style="width: 130px;height: 50px;margin: 5px;">
+                <!-- </a> -->
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/">INICIO</a></li>
                     <li><a href="/servicios">SERVICIOS</a></li>
@@ -64,35 +66,65 @@
                     <h3 style="color:#979797" class="title-content-information-greey">Durante el tiempo que tienen de operar la notaría ha tenido oportunidad de atender múltiples clientes institucionales y particulares entre los que destacan los siguientes:</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-2 img-custom-content">
-                    <img src="img/not-found.png" alt="mayor.png" width="140" class='imgRedonda'>
+            <div class="container">
+                <div class="column">
+                    <div class="row">
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/BBVA.jpg" alt="BBVA" width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/scotiabank.png" alt="Scotiabank" width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/infonavit.png" alt="INFONAVIT" width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/altozano.png" alt="Altozano" width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/mpioColima.png" alt="H. Ayuntamiento de Colima" width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/mpiocuauhtemoc.png" alt="H. Ayuntamiento de Cuauhtemoc" width="140" class='imgRedonda'>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/mpiovilladealvarez.jpeg" alt="H. Ayuntamiento de Villa de Alvarez" width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/alarife.png" alt="Alarife" width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/civitatis.png" alt="Civitatis" width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/limon.png" alt="Limon Inmobiliaria" width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/edifica.jpg" alt="Edifica, servicios inmobiliarios" width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/cococolima.png" alt="mayor.png" width="140" class='imgRedonda'>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/emsarq.jpg" alt="EMSARQ, S.A. DE C.V." width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/marfil.png" alt="Soluciones inmobiliarias MARFIL" width="140" class='imgRedonda'>
+                        </div>
+                        <div class="col-md-2 img-custom-content">
+                            <img src="img/assets/simor.png" alt="Servicios inmobiliarios Simor" width="140" class='imgRedonda'>
+                        </div>
+                    
+                    </div>
+                    
                 </div>
-                <div class="col-md-2 img-custom-content">
-                    <img src="img/not-found.png" alt="mayor.png" width="140" class='imgRedonda'>
-                </div>
-                <div class="col-md-2 img-custom-content">
-                    <img src="img/not-found.png" alt="mayor.png" width="140" class='imgRedonda'>
-                </div>
-                <div class="col-md-2 img-custom-content">
-                    <img src="img/not-found.png" alt="mayor.png" width="140" class='imgRedonda'>
-                </div>
-                <div class="col-md-2 img-custom-content">
-                    <img src="img/not-found.png" alt="mayor.png" width="140" class='imgRedonda'>
-                </div>
-                <div class="col-md-2 img-custom-content">
-                    <img src="img/not-found.png" alt="mayor.png" width="140" class='imgRedonda'>
-                </div>
-                <div class="col-md-2 img-custom-content">
-                    <img src="img/not-found.png" alt="mayor.png" width="140" class='imgRedonda'>
-                </div>
-                <div class="col-md-2 img-custom-content">
-                    <img src="img/not-found.png" alt="mayor.png" width="140" class='imgRedonda'>
-                </div>
-                <div class="col-md-2 img-custom-content">
-                    <img src="img/not-found.png" alt="mayor.png" width="140" class='imgRedonda'>
-                </div>
+
             </div>
+
         </div>
         <br>
     </div>
